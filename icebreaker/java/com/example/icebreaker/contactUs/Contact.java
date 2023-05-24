@@ -104,7 +104,7 @@ public class Contact extends AppCompatActivity {
             startActivity(intent);
         });
         yohCv.setOnClickListener(view -> {
-            String Url = "https://drive.google.com/file/d/1el9dCExmLQ_axgGPGSJBs0PbledH1HWi/view";
+            String Url = "https://drive.google.com/file/d/1LZBgNf3Vjh980OS-Yy4iSQWroJ5YGGzq/view";
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(Url));
             startActivity(intent);
